@@ -2,5 +2,6 @@
 
 let totalFileSize = 250000;
 let uploadedSize = 30000;
+let uploadProgress = (uploadedSize / totalFileSize) * 100; // = 12 (%)
+console.log(uploadProgress); // = 12
 
-// Start coding here
